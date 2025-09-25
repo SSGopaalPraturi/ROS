@@ -13,22 +13,13 @@ class TwistPublisherNode(Node):
 
     def publish_message(self):
         msg = TwistStamped()
-
         msg.header.stamp = self.get_clock().now().to_msg()
         msg.header.frame_id = 'base_link'
-
-        msg.twist.linear.x = 2.0
+        msg.twist.linear.x = 0.2
         msg.twist.angular.z = 0.0
-
         self.publisher_.publish(msg)
+        self.get_logger().info(f'Publishing stamped twist: {msg.twist.linear.x}')
 
-        self.get_logger().info(f'Publishing to /cmd_vel: linear x = {msg.twist.linear.x}')
-
-        self.timer.cancel()
-        self.get_logger().info('Message published')
-
-        self.destroy_node()
-        self.get_logger().info('Node destroyed')
 
     def shutdown_node(self):
         self.destroy_node()
