@@ -1,0 +1,25 @@
+[0.990s] Invoking command in '/home/robo/Desktop/Group C ROS/ROS/src/node1pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robo/Desktop/Group C ROS/ROS/build/node1pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robo/Desktop/Group C ROS/ROS/install/node1pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/node1pkg build --build-base /home/robo/Desktop/Group C ROS/ROS/build/node1pkg/build install --record /home/robo/Desktop/Group C ROS/ROS/build/node1pkg/install.log --single-version-externally-managed install_data
+[1.310s] running egg_info
+[1.332s] writing ../../build/node1pkg/node1pkg.egg-info/PKG-INFO
+[1.332s] writing dependency_links to ../../build/node1pkg/node1pkg.egg-info/dependency_links.txt
+[1.332s] writing entry points to ../../build/node1pkg/node1pkg.egg-info/entry_points.txt
+[1.333s] writing requirements to ../../build/node1pkg/node1pkg.egg-info/requires.txt
+[1.333s] writing top-level names to ../../build/node1pkg/node1pkg.egg-info/top_level.txt
+[1.378s] reading manifest file '../../build/node1pkg/node1pkg.egg-info/SOURCES.txt'
+[1.379s] writing manifest file '../../build/node1pkg/node1pkg.egg-info/SOURCES.txt'
+[1.379s] running build
+[1.379s] running build_py
+[1.379s] copying node1pkg/path_driver.py -> /home/robo/Desktop/Group C ROS/ROS/build/node1pkg/build/lib/node1pkg
+[1.379s] running install
+[1.387s] running install_lib
+[1.409s] copying /home/robo/Desktop/Group C ROS/ROS/build/node1pkg/build/lib/node1pkg/path_driver.py -> /home/robo/Desktop/Group C ROS/ROS/install/node1pkg/lib/python3.12/site-packages/node1pkg
+[1.410s] byte-compiling /home/robo/Desktop/Group C ROS/ROS/install/node1pkg/lib/python3.12/site-packages/node1pkg/path_driver.py to path_driver.cpython-312.pyc
+[1.411s] running install_data
+[1.411s] running install_egg_info
+[1.436s] removing '/home/robo/Desktop/Group C ROS/ROS/install/node1pkg/lib/python3.12/site-packages/node1pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[1.436s] Copying ../../build/node1pkg/node1pkg.egg-info to /home/robo/Desktop/Group C ROS/ROS/install/node1pkg/lib/python3.12/site-packages/node1pkg-0.0.0-py3.12.egg-info
+[1.437s] running install_scripts
+[1.588s] Installing node1 script to /home/robo/Desktop/Group C ROS/ROS/install/node1pkg/lib/node1pkg
+[1.589s] Installing path_driver script to /home/robo/Desktop/Group C ROS/ROS/install/node1pkg/lib/node1pkg
+[1.589s] writing list of installed files to '/home/robo/Desktop/Group C ROS/ROS/build/node1pkg/install.log'
+[1.622s] Invoked command in '/home/robo/Desktop/Group C ROS/ROS/src/node1pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robo/Desktop/Group C ROS/ROS/build/node1pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robo/Desktop/Group C ROS/ROS/install/node1pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/node1pkg build --build-base /home/robo/Desktop/Group C ROS/ROS/build/node1pkg/build install --record /home/robo/Desktop/Group C ROS/ROS/build/node1pkg/install.log --single-version-externally-managed install_data
