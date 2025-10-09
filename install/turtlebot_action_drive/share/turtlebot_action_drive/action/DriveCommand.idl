@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from turtlebot_action_drive/action/DriveCommand.action
+// generated code does not contain a copyright notice
+
+
+module turtlebot_action_drive {
+  module action {
+    @verbatim (language="comment", text=
+      "Request")
+    struct DriveCommand_Goal {
+      @verbatim (language="comment", text=
+        "Distance to move in meters (0 if turning)")
+      float distance;
+
+      @verbatim (language="comment", text=
+        "Angle to turn in radians (0 if moving)")
+      float angle;
+    };
+    @verbatim (language="comment", text=
+      "Result (empty for now)")
+    struct DriveCommand_Result {
+      uint8 structure_needs_at_least_one_member;
+    };
+    @verbatim (language="comment", text=
+      "Feedback (empty for now)")
+    struct DriveCommand_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

@@ -1,0 +1,7 @@
+# Request
+float32 distance  # Distance to move in meters (0 if turning)
+float32 angle     # Angle to turn in radians (0 if moving)
+---
+# Result (empty for now)
+---
+# Feedback (empty for now)
