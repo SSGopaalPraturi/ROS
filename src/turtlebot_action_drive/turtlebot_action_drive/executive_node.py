@@ -98,6 +98,13 @@ class ExecutiveNode(Node):
                         print("Error: Angle must be non-negative")
                         continue
                     
+                    turn_direction = input("Enter direction to turn, left (l) or right (r)")
+                    if turn_direction == "r":
+                        degrees = -degrees
+
+                    elif turn_direction != "l":
+                        print("Error: turn direction must be l or r")
+                        continue
                     # Convert degrees to radians
                     radians = math.radians(degrees)
                     

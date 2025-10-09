@@ -47,7 +47,7 @@ class DrivingNode(Node):
         angle = request.angle
         
         # Validate the request
-        if distance < 0 or angle < 0:
+        if distance < 0:
             self.get_logger().error('Negative values not allowed')
             goal_handle.abort()
             return DriveCommand.Result()
@@ -65,7 +65,7 @@ class DrivingNode(Node):
         # Execute the appropriate command
         if distance > 0:
             self.move_distance(distance)
-        elif angle > 0:
+        elif angle != 0:
             self.turn_angle(angle)
         
         # Mark goal as succeeded
@@ -115,8 +115,12 @@ class DrivingNode(Node):
         angular_speed = 0.5
         
         # Calculate duration
-        duration = angle / angular_speed
-        
+        duration = abs(angle) / angular_speed
+
+        if angle < 0:
+            angular_speed = -angular_speed
+        self.get_logger().info('{duration} and {angular_speed}')
+
         # Create twist message
         twist = Twist()
         twist.linear.x = 0.0
