@@ -112,15 +112,13 @@ class DrivingNode(Node):
         self.get_logger().info(f'Turning {math.degrees(angle):.2f} degrees')
         
         # Set angular velocity (rad/s)
-        angular_speed = 0.5
+        base_speed = 0.5
+        sign = 1.0 if angle >= 0 else -1.0
+        angular_speed = base_speed * sign
         
         # Calculate duration
-        duration = abs(angle) / angular_speed
-
-        if angle < 0:
-            angular_speed = -angular_speed
-        self.get_logger().info('{duration} and {angular_speed}')
-
+        duration = abs(angle) / base_speed
+        
         # Create twist message
         twist = Twist()
         twist.linear.x = 0.0

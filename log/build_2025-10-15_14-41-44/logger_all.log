@@ -1,0 +1,208 @@
+[0.083s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.083s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7026f6d948c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7026f6d94560>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7026f6d94560>>, mixin_verb=('build',))
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.113s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robo/Desktop/Group C ROS/ROS'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab4_driving_control) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab4_driving_control) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab4_driving_control) by extension 'ignore_ament_install'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab4_driving_control) by extensions ['colcon_pkg']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab4_driving_control) by extension 'colcon_pkg'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab4_driving_control) by extensions ['colcon_meta']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab4_driving_control) by extension 'colcon_meta'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab4_driving_control) by extensions ['ros']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab4_driving_control) by extension 'ros'
+[0.140s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lab4_driving_control' with type 'ros.ament_python' and name 'lab4_driving_control'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_action_drive) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_action_drive) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_action_drive) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_action_drive) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_action_drive) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_action_drive) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_action_drive) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_action_drive) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_action_drive) by extension 'ros'
+[0.140s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot_action_drive' with type 'ros.ament_cmake' and name 'turtlebot_action_drive'
+[0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.157s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/robo/Desktop/Group C ROS/ROS/install
+[0.157s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/robo/ros_ws/install
+[0.158s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 362 installed packages in /opt/ros/jazzy
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'lab4_driving_control' build argument 'cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'lab4_driving_control' build argument 'cmake_target' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'lab4_driving_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'lab4_driving_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'lab4_driving_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'lab4_driving_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'lab4_driving_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'lab4_driving_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'lab4_driving_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.193s] DEBUG:colcon.colcon_core.verb:Building package 'lab4_driving_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robo/Desktop/Group C ROS/ROS/build/lab4_driving_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control', 'merge_install': False, 'path': '/home/robo/Desktop/Group C ROS/ROS/src/lab4_driving_control', 'symlink_install': False, 'test_result_base': None}
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_action_drive' build argument 'cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_action_drive' build argument 'cmake_target' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_action_drive' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_action_drive' build argument 'cmake_clean_cache' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_action_drive' build argument 'cmake_clean_first' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_action_drive' build argument 'cmake_force_configure' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_action_drive' build argument 'ament_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_action_drive' build argument 'catkin_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_action_drive' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.193s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot_action_drive' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robo/Desktop/Group C ROS/ROS/build/turtlebot_action_drive', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive', 'merge_install': False, 'path': '/home/robo/Desktop/Group C ROS/ROS/src/turtlebot_action_drive', 'symlink_install': False, 'test_result_base': None}
+[0.193s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.194s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.194s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robo/Desktop/Group C ROS/ROS/src/lab4_driving_control' with build type 'ament_python'
+[0.194s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab4_driving_control', 'ament_prefix_path')
+[0.197s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/share/lab4_driving_control/hook/ament_prefix_path.ps1'
+[0.197s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/share/lab4_driving_control/hook/ament_prefix_path.dsv'
+[0.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/share/lab4_driving_control/hook/ament_prefix_path.sh'
+[0.198s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.198s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.201s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robo/Desktop/Group C ROS/ROS/src/turtlebot_action_drive' with build type 'ament_cmake'
+[0.201s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robo/Desktop/Group C ROS/ROS/src/turtlebot_action_drive'
+[0.201s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.201s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.351s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robo/Desktop/Group C ROS/ROS/src/lab4_driving_control'
+[0.351s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.351s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robo/Desktop/Group C ROS/ROS/build/turtlebot_action_drive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robo/Desktop/Group C ROS/ROS/build/turtlebot_action_drive -- -j24 -l24
+[0.774s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robo/Desktop/Group C ROS/ROS/src/lab4_driving_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robo/Desktop/Group C ROS/ROS/build/lab4_driving_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab4_driving_control build --build-base /home/robo/Desktop/Group C ROS/ROS/build/lab4_driving_control/build install --record /home/robo/Desktop/Group C ROS/ROS/build/lab4_driving_control/install.log --single-version-externally-managed install_data
+[1.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robo/Desktop/Group C ROS/ROS/src/lab4_driving_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robo/Desktop/Group C ROS/ROS/build/lab4_driving_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab4_driving_control build --build-base /home/robo/Desktop/Group C ROS/ROS/build/lab4_driving_control/build install --record /home/robo/Desktop/Group C ROS/ROS/build/lab4_driving_control/install.log --single-version-externally-managed install_data
+[1.117s] Level 1:colcon.colcon_core.environment:checking '/home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control' for CMake module files
+[1.117s] Level 1:colcon.colcon_core.environment:checking '/home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control' for CMake config files
+[1.118s] Level 1:colcon.colcon_core.environment:checking '/home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/lib'
+[1.118s] Level 1:colcon.colcon_core.environment:checking '/home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/bin'
+[1.118s] Level 1:colcon.colcon_core.environment:checking '/home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/lib/pkgconfig/lab4_driving_control.pc'
+[1.118s] Level 1:colcon.colcon_core.environment:checking '/home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/lib/python3.12/site-packages'
+[1.118s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab4_driving_control', 'pythonpath')
+[1.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/share/lab4_driving_control/hook/pythonpath.ps1'
+[1.119s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/share/lab4_driving_control/hook/pythonpath.dsv'
+[1.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/share/lab4_driving_control/hook/pythonpath.sh'
+[1.120s] Level 1:colcon.colcon_core.environment:checking '/home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/bin'
+[1.120s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab4_driving_control)
+[1.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/share/lab4_driving_control/package.ps1'
+[1.121s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/share/lab4_driving_control/package.dsv'
+[1.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/share/lab4_driving_control/package.sh'
+[1.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/share/lab4_driving_control/package.bash'
+[1.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/share/lab4_driving_control/package.zsh'
+[1.124s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/share/colcon-core/packages/lab4_driving_control)
+[1.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robo/Desktop/Group C ROS/ROS/build/turtlebot_action_drive' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robo/Desktop/Group C ROS/ROS/build/turtlebot_action_drive -- -j24 -l24
+[1.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robo/Desktop/Group C ROS/ROS/build/turtlebot_action_drive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robo/Desktop/Group C ROS/ROS/build/turtlebot_action_drive
+[1.576s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot_action_drive)
+[1.576s] Level 1:colcon.colcon_core.environment:checking '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive' for CMake module files
+[1.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robo/Desktop/Group C ROS/ROS/build/turtlebot_action_drive' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robo/Desktop/Group C ROS/ROS/build/turtlebot_action_drive
+[1.578s] Level 1:colcon.colcon_core.environment:checking '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive' for CMake config files
+[1.579s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot_action_drive', 'cmake_prefix_path')
+[1.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/share/turtlebot_action_drive/hook/cmake_prefix_path.ps1'
+[1.579s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/share/turtlebot_action_drive/hook/cmake_prefix_path.dsv'
+[1.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/share/turtlebot_action_drive/hook/cmake_prefix_path.sh'
+[1.580s] Level 1:colcon.colcon_core.environment:checking '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/lib'
+[1.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot_action_drive', 'ld_library_path_lib')
+[1.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/share/turtlebot_action_drive/hook/ld_library_path_lib.ps1'
+[1.581s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/share/turtlebot_action_drive/hook/ld_library_path_lib.dsv'
+[1.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/share/turtlebot_action_drive/hook/ld_library_path_lib.sh'
+[1.581s] Level 1:colcon.colcon_core.environment:checking '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/bin'
+[1.581s] Level 1:colcon.colcon_core.environment:checking '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/lib/pkgconfig/turtlebot_action_drive.pc'
+[1.581s] Level 1:colcon.colcon_core.environment:checking '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/lib/python3.12/site-packages'
+[1.581s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot_action_drive', 'pythonpath')
+[1.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/share/turtlebot_action_drive/hook/pythonpath.ps1'
+[1.582s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/share/turtlebot_action_drive/hook/pythonpath.dsv'
+[1.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/share/turtlebot_action_drive/hook/pythonpath.sh'
+[1.582s] Level 1:colcon.colcon_core.environment:checking '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/bin'
+[1.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/share/turtlebot_action_drive/package.ps1'
+[1.583s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/share/turtlebot_action_drive/package.dsv'
+[1.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/share/turtlebot_action_drive/package.sh'
+[1.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/share/turtlebot_action_drive/package.bash'
+[1.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/share/turtlebot_action_drive/package.zsh'
+[1.583s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/share/colcon-core/packages/turtlebot_action_drive)
+[1.584s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot_action_drive)
+[1.584s] Level 1:colcon.colcon_core.environment:checking '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive' for CMake module files
+[1.584s] Level 1:colcon.colcon_core.environment:checking '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive' for CMake config files
+[1.584s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot_action_drive', 'cmake_prefix_path')
+[1.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/share/turtlebot_action_drive/hook/cmake_prefix_path.ps1'
+[1.585s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/share/turtlebot_action_drive/hook/cmake_prefix_path.dsv'
+[1.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/share/turtlebot_action_drive/hook/cmake_prefix_path.sh'
+[1.585s] Level 1:colcon.colcon_core.environment:checking '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/lib'
+[1.585s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot_action_drive', 'ld_library_path_lib')
+[1.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/share/turtlebot_action_drive/hook/ld_library_path_lib.ps1'
+[1.585s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/share/turtlebot_action_drive/hook/ld_library_path_lib.dsv'
+[1.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/share/turtlebot_action_drive/hook/ld_library_path_lib.sh'
+[1.586s] Level 1:colcon.colcon_core.environment:checking '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/bin'
+[1.586s] Level 1:colcon.colcon_core.environment:checking '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/lib/pkgconfig/turtlebot_action_drive.pc'
+[1.586s] Level 1:colcon.colcon_core.environment:checking '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/lib/python3.12/site-packages'
+[1.586s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot_action_drive', 'pythonpath')
+[1.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/share/turtlebot_action_drive/hook/pythonpath.ps1'
+[1.586s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/share/turtlebot_action_drive/hook/pythonpath.dsv'
+[1.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/share/turtlebot_action_drive/hook/pythonpath.sh'
+[1.587s] Level 1:colcon.colcon_core.environment:checking '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/bin'
+[1.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/share/turtlebot_action_drive/package.ps1'
+[1.587s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/share/turtlebot_action_drive/package.dsv'
+[1.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/share/turtlebot_action_drive/package.sh'
+[1.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/share/turtlebot_action_drive/package.bash'
+[1.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/share/turtlebot_action_drive/package.zsh'
+[1.588s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robo/Desktop/Group C ROS/ROS/install/turtlebot_action_drive/share/colcon-core/packages/turtlebot_action_drive)
+[1.588s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.588s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.588s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.588s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.592s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.592s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.592s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.606s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.606s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robo/Desktop/Group C ROS/ROS/install/local_setup.ps1'
+[1.607s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robo/Desktop/Group C ROS/ROS/install/_local_setup_util_ps1.py'
+[1.608s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robo/Desktop/Group C ROS/ROS/install/setup.ps1'
+[1.609s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robo/Desktop/Group C ROS/ROS/install/local_setup.sh'
+[1.609s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robo/Desktop/Group C ROS/ROS/install/_local_setup_util_sh.py'
+[1.609s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robo/Desktop/Group C ROS/ROS/install/setup.sh'
+[1.610s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robo/Desktop/Group C ROS/ROS/install/local_setup.bash'
+[1.610s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robo/Desktop/Group C ROS/ROS/install/setup.bash'
+[1.611s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robo/Desktop/Group C ROS/ROS/install/local_setup.zsh'
+[1.611s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robo/Desktop/Group C ROS/ROS/install/setup.zsh'

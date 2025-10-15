@@ -94,17 +94,10 @@ class ExecutiveNode(Node):
             elif choice == '2':
                 try:
                     degrees = float(input("Enter angle to turn (degrees): "))
-                    if degrees < 0:
-                        print("Error: Angle must be non-negative")
-                        continue
+                    # if degrees < 0:
+                    #     print("Error: Angle must be non-negative")
+                    #     continue
                     
-                    turn_direction = input("Enter direction to turn, left (l) or right (r)")
-                    if turn_direction == "r":
-                        degrees = -degrees
-
-                    elif turn_direction != "l":
-                        print("Error: turn direction must be l or r")
-                        continue
                     # Convert degrees to radians
                     radians = math.radians(degrees)
                     

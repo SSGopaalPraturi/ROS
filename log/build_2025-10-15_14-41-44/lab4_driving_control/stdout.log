@@ -1,0 +1,43 @@
+running egg_info
+creating ../../build/lab4_driving_control/lab4_driving_control.egg-info
+writing ../../build/lab4_driving_control/lab4_driving_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/lab4_driving_control/lab4_driving_control.egg-info/dependency_links.txt
+writing entry points to ../../build/lab4_driving_control/lab4_driving_control.egg-info/entry_points.txt
+writing requirements to ../../build/lab4_driving_control/lab4_driving_control.egg-info/requires.txt
+writing top-level names to ../../build/lab4_driving_control/lab4_driving_control.egg-info/top_level.txt
+writing manifest file '../../build/lab4_driving_control/lab4_driving_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/lab4_driving_control/lab4_driving_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/lab4_driving_control/lab4_driving_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robo/Desktop/Group C ROS/ROS/build/lab4_driving_control/build
+creating /home/robo/Desktop/Group C ROS/ROS/build/lab4_driving_control/build/lib
+creating /home/robo/Desktop/Group C ROS/ROS/build/lab4_driving_control/build/lib/lab4_driving_control
+copying lab4_driving_control/open_loop_drive.py -> /home/robo/Desktop/Group C ROS/ROS/build/lab4_driving_control/build/lib/lab4_driving_control
+copying lab4_driving_control/closed_loop_drive.py -> /home/robo/Desktop/Group C ROS/ROS/build/lab4_driving_control/build/lib/lab4_driving_control
+copying lab4_driving_control/__init__.py -> /home/robo/Desktop/Group C ROS/ROS/build/lab4_driving_control/build/lib/lab4_driving_control
+copying lab4_driving_control/return_to_start.py -> /home/robo/Desktop/Group C ROS/ROS/build/lab4_driving_control/build/lib/lab4_driving_control
+running install
+running install_lib
+creating /home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/lib/python3.12/site-packages/lab4_driving_control
+copying /home/robo/Desktop/Group C ROS/ROS/build/lab4_driving_control/build/lib/lab4_driving_control/open_loop_drive.py -> /home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/lib/python3.12/site-packages/lab4_driving_control
+copying /home/robo/Desktop/Group C ROS/ROS/build/lab4_driving_control/build/lib/lab4_driving_control/closed_loop_drive.py -> /home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/lib/python3.12/site-packages/lab4_driving_control
+copying /home/robo/Desktop/Group C ROS/ROS/build/lab4_driving_control/build/lib/lab4_driving_control/__init__.py -> /home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/lib/python3.12/site-packages/lab4_driving_control
+copying /home/robo/Desktop/Group C ROS/ROS/build/lab4_driving_control/build/lib/lab4_driving_control/return_to_start.py -> /home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/lib/python3.12/site-packages/lab4_driving_control
+byte-compiling /home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/lib/python3.12/site-packages/lab4_driving_control/open_loop_drive.py to open_loop_drive.cpython-312.pyc
+byte-compiling /home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/lib/python3.12/site-packages/lab4_driving_control/closed_loop_drive.py to closed_loop_drive.cpython-312.pyc
+byte-compiling /home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/lib/python3.12/site-packages/lab4_driving_control/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/lib/python3.12/site-packages/lab4_driving_control/return_to_start.py to return_to_start.cpython-312.pyc
+running install_data
+creating /home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/share/ament_index
+creating /home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/share/ament_index/resource_index
+creating /home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/share/ament_index/resource_index/packages
+copying resource/lab4_driving_control -> /home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/share/lab4_driving_control
+running install_egg_info
+Copying ../../build/lab4_driving_control/lab4_driving_control.egg-info to /home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/lib/python3.12/site-packages/lab4_driving_control-0.0.0-py3.12.egg-info
+running install_scripts
+Installing closed_loop script to /home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/lib/lab4_driving_control
+Installing open_loop script to /home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/lib/lab4_driving_control
+Installing return_to_start script to /home/robo/Desktop/Group C ROS/ROS/install/lab4_driving_control/lib/lab4_driving_control
+writing list of installed files to '/home/robo/Desktop/Group C ROS/ROS/build/lab4_driving_control/install.log'
