@@ -9,19 +9,17 @@ source install/setup.bash
 ```
 
 #### Option 1: Using Launch File
+```bash
 ros2 launch turtlebot_action_drive turtlebot_action_launch.py
+```
 
 #### Option 2: Manual Launch
 Terminal 1 - Start the Action Server:
-
-navigate to your ros2 workspace in terminal
 ```bash
 source install/setup.bash
 ros2 run turtlebot_action_drive driving_node.py
 ```
 Terminal 2 - Start the Action Client:
-
-navigate to your ros2 workspace in terminal
 ```bash
 source install/setup.bash
 ros2 run turtlebot_action_drive executive_node.py
